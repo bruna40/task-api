@@ -6,27 +6,20 @@
   "main": "index.js",
   "scripts": {
     "dev": "node --watch src/server.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "lint-staged":{
-    ".js": "eslint --fix"
-  },
-  "husky": {
-    "hooks": {
-      "applypatch-msg":"echo '[Husky] applypatch-msg'",
-      "pre-applypatch": "echo '[Husky] pre-applypatch'",
-      "post-applypatch": "echo '[Husky] post-applypatch'",
-      "pre-commit": "echo '[Husky] pre-commit'"
-    }
-  },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "eslint": "^8.49.0",
-    "husky": "^8.0.3",
+    "husky": "^8.0.0",
     "lint-staged": "^14.0.1"
   }
 }
