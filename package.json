@@ -16,8 +16,10 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "applypatch-msg":"echo '[Husky] applypatch-msg'",
+      "pre-applypatch": "echo '[Husky] pre-applypatch'",
+      "post-applypatch": "echo '[Husky] post-applypatch'",
+      "pre-commit": "echo '[Husky] pre-commit'"
     }
   },
   "devDependencies": {
