@@ -26,3 +26,4 @@ Projeto rodando na porta 3000.
 - POST `/tasks`: Cria uma nova tarefa
 - PUT `/tasks/:id`: Atualiza uma tarefa
 - DELETE `/tasks/:id`: Deleta uma tarefa
+- PATCH `/tasks/:id/done`: Marca uma tarefa como concluída
