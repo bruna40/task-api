@@ -7,7 +7,7 @@ Feita durante a resolução do desafio do curso de dundamentos de NodeJS da Rock
 
 ### Sobre o desafio:
 
-Nesse desafio você desenvolverá uma API para realizar o CRUD de suas *tasks* (tarefas).
+Nesse desafio foi desenvolvido uma API para realizar o CRUD de suas *tasks* (tarefas).
 
 A API deve conter as seguintes funcionalidades:
 
