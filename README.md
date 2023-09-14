@@ -32,6 +32,15 @@ O husky foi utilizado para gereciar os hooks do git, para que antes de cada comm
 - Rode o projeto com `npm run dev`
 
 Projeto rodando na porta 3000.
+
+
+## Pastas e arquivos:
+
+- `src`: Pasta onde fica o código da aplicação
+- `src/routes`: Pasta onde fica as rotas da aplicação
+- `src/database`: Pasta onde fica o código com o banco de dados
+- `src/middlewares`: Pasta onde fica o código dos middlewares, que são funções que são executadas para tratar os dados antes de chegar nas rotas
+- `src/utils`: Pasta onde fica o código com funções utilitárias
 ## Rotas:
 
 - GET `/tasks`: Lista todas as tarefas
