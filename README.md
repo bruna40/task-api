@@ -19,8 +19,10 @@ O husky foi utilizado para gereciar os hooks do git, para que antes de cada comm
 - Instale as dependências com `npm install`
 - Rode o projeto com `npm run dev`
 
+Projeto rodando na porta 3000.
 ## Rotas:
 
 - GET `/tasks`: Lista todas as tarefas
 - POST `/tasks`: Cria uma nova tarefa
 - PUT `/tasks/:id`: Atualiza uma tarefa
+- DELETE `/tasks/:id`: Deleta uma tarefa
